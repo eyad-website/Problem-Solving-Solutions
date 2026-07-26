@@ -1,6 +1,6 @@
 # 🧩 Problem Solving & Algorithmic Solutions
 
-Welcome to my Problem Solving repository! Here I document my solutions to various coding challenges, algorithmic problems, and competitive programming practice to build strong fundamentals in **Data Structures**.
+Welcome to my Problem Solving repository! Here I document my solutions to various coding challenges,  problems, and competitive programming practice to build strong fundamentals in **Data Structures**.
 
 ---
 
@@ -18,6 +18,6 @@ Welcome to my Problem Solving repository! Here I document my solutions to variou
 ---
 
 ## 🎯 Goal
-Consistently practicing and solving daily challenges to enhance logical thinking, computational complexity optimization (Time & Space Complexity), and clean code practice.
+Consistently practicing and solving daily challenges to enhance logical thinking, optimization , and clean code practice.
 
 ---
