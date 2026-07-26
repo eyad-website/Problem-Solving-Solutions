@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+void PrintArray(int arr[]) {
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
+}
+
+void ReverseArray(int arr[]) {
+    for (int i = 4; i >= 0; i--) {
+        cout << arr[i] << " ";
+    }
+}
+
+int main() {
+    int arr[5];
+
+    for (int i = 0; i < 5; i++) {
+        cin >> arr[i];
+    }
+
+    cout << "Array : ";
+    PrintArray(arr);
+
+    cout << endl;
+
+    cout << "Reverse : ";
+    ReverseArray(arr);
+
+    return 0;
+}
