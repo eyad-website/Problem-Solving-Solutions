@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int N;
+    bool prime = true;
+
+    cin >> N;
+
+    if (N <= 1) {
+        prime = false;
+    }
+
+    for (int i = 2; i * i <= N; i++) {
+
+        if (N % i == 0) {
+            prime = false;
+            break;
+        }
+    }
+
+    if (prime)
+        cout << "Prime";
+    else
+        cout << "Not Prime";
+
+    return 0;
+}
