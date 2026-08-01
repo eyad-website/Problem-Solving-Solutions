@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int arr[8];
+
+    for (int i = 0; i < 8; i++) {
+        cin >> arr[i];
+    }
+
+    int count = 0;
+    int maxCount = 0;
+
+    for (int i = 0; i < 8; i++) {
+
+        if (arr[i] == 0)
+            count++;
+        else
+            count = 0;
+
+        if (count > maxCount)
+            maxCount = count;
+    }
+
+    cout << maxCount;
+
+    return 0;
+}
