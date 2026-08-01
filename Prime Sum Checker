@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int arr[5];
+    int sum = 0;
+
+    for (int i = 0; i < 5; i++) {
+
+        cin >> arr[i];
+
+        if (arr[i] < 0)
+            arr[i] = -arr[i];
+
+        sum += arr[i];
+    }
+
+    bool prime = true;
+
+    if (sum <= 1)
+        prime = false;
+
+    for (int i = 2; i * i <= sum; i++) {
+
+        if (sum % i == 0) {
+            prime = false;
+            break;
+        }
+    }
+
+    if (prime)
+        cout << "Perfect";
+    else
+        cout << "Normal";
+
+    return 0;
+}
